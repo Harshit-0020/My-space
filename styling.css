@@ -54,6 +54,10 @@ body {
     font-size: 2.2rem;
 }
 
+.main_heading__para_cozy{
+    font-size: 5.2rem;
+}
+
 .main_header__div {
     height: calc(100vh - 40vh);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0)), url('https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -101,11 +105,11 @@ body {
 }
 
 .flip {
-    -webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+    -moz-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
     animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
-@-webkit-keyframes flip4 {
+@-moz-keyframes flip4 {
     0% {
         margin-top: -360px;
     }
