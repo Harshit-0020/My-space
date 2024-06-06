@@ -5,7 +5,7 @@ on:
       - master # Set a branch to deploy
 
 jobs:
-  begin_deployment:
+  begin_deployment_on_surge:
     name: Start Deployment on Surge
     runs-on: ubuntu-latest
     steps:
