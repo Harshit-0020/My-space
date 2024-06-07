@@ -2,7 +2,7 @@ name: Deploy to surge v2
 on:
   push:
     branches:
-      - master # Set a branch to deploy
+      - main # Set a branch to deploy
 
 jobs:
   begin_deployment_on_surge:
