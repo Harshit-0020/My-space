@@ -1,3 +1,4 @@
+# Awesome the code works now, as of commit cb08b08
 name: Deploy to surge v2
 on:
   push:
