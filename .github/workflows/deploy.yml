@@ -1,4 +1,4 @@
-name: Deploy to surge
+name: Deploy to surge v2
 on:
   push:
     branches:
