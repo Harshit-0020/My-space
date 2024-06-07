@@ -40,6 +40,7 @@ a:hover {
 }
 
 body {
+    /* This changes the background color of body*/
     background: hsl(84, 3%, 94%);
 }
 

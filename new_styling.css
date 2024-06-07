@@ -1,0 +1,32 @@
+html{background-color: #DEF1E7;}
+.h1 {
+    font-family:"sans-serif1";
+    font-size: 2rem;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 700
+*/
+
+.merriweather-heading-author {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+  }
+  
+
+
+  .kalam-heading-quote {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  .kalam-heading-author {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: normal;
+  }
