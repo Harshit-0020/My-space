@@ -31,4 +31,4 @@ jobs:
       
       # Deploy to surge
       - name: Deploy to surge
-        run: surge  divide.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ divide.surge.sh --token ${{secrets.SURGE_TOKEN}}
